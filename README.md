@@ -16,22 +16,22 @@ Espaços em branco ajundam na legibilidade do código e separam os símbolos um 
 
 ## 2.2 Comentários
 
-JavaScript aceita dois estilos de [comentários]().
+JavaScript aceita dois estilos de [comentários](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/comentario.js).
 
 ## 2.3 Literais
 
 Um _literal_ é um valor de dados que aparece diretamente em um programa. São eles:
 
-- [Números]()
-- [String]()
-- [Booleano]()
-- [Null]()
+- [Números](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/numeros.js)
+- [String](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/string.js)
+- [Booleano](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/booleano.js)
+- [Null](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/null.js)
 
 ## 2.4 Identificadores e palavras reservadas
 
 Em JavaScript, um _identificador_ é utilizado para dar nome a variáveis e funções e fornecer rótulos para certos laços no código.
 
-Um [identificador]() JavaScript deve começar com uma letra, um sublinha (\_) ou um cifrão ($).
+Um [identificador](https://github.com/RomualdoBorges/javascript/blob/main/estrutura-lexica/identificador.js) JavaScript deve começar com uma letra, um sublinha (\_) ou um cifrão ($).
 
 ### 2.4.1 [Palavras reservadas](https://www.w3schools.com/js/js_reserved.asp)
 
