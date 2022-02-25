@@ -36,19 +36,19 @@ A não ser pela semelhança sintática superficial, _JavaScript_ é completament
 
 [Veja mais](https://www.java.com/pt-BR/download/help/java_javascript_pt-br.html#:~:text=Java%20cria%20aplica%C3%A7%C3%B5es%20executadas%20em,Eles%20requerem%20plug%2Dins%20diferentes.)
 
-# Capítulo 2 JavaScript para Iniciantes
+## 1.4 Explorando o JavaScript
 
-## 2.1 Explorando o JavaScript
-
-É possível incorporar código JavaScript entre marcas [`<script>`]() em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
+É possível incorporar código JavaScript entre marcas [`<script>`](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/index.html) em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
 
 Todo navegador Web contém um _interpretador_ de JavaScript e normalmente, podemos encontrar uma _ferramenta de desenvolvedores_ neles. Um painel ou janela típica de “ferramentas para desenvolvedor” contém várias guias. Uma das guias é o _“console JavaScript”_ que permite digitar linhas de código JavaScript e testá-las. Para ativar um console apertamos a tecla F12.
 
-Existe uma API de console simples, implementada de forma portável pelos navegadores modernos. Você pode usar a função [`console.log()`]() para exibir uma saída simples no console.
+Existe uma API de console simples, implementada de forma portável pelos navegadores modernos. Você pode usar a função [`console.log()`](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/script.js) para exibir uma saída simples no console.
 
-## 2.2 Variáveis
+# Capítulo 2 JavaScript para Iniciantes
 
-Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O nome das variáveis, chamados de [_indicadores_](), obedecem determinadas regras:
+## 2.1 Variáveis
+
+Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O nome das variáveis, chamados de [_indicadores_](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/indicadores.js), obedecem determinadas regras:
 
 - Os nomes podem iniciar com $, underline (\_), ou letras;
 
@@ -62,6 +62,39 @@ Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O 
 
 Existem três tipos de _declarações_ em JavaScript:
 
-- <span style="color:#938EF7;font-family:courier new">var</span> -
-- <span style="color:#938EF7;font-family:courier new">let</span>
-- <span style="color:#938EF7;font-family:courier new">const</span>
+- `var` - Declara uma variável;
+- `let` - Declara uma variável de escopo de bloco;
+- `const` - Declara uma constante de escopo de bloco, apenas de leitura.
+
+Podemos utilizar a vírgula para criar mais de uma variável, sem repetir as declarações.
+
+Podemos declarar uma variável sem atribuir valor inicialmente.
+
+[Exemplos]()
+
+### 2.2.2 Mudar o valor atribuído
+
+É possível mudar os valores atribuídos a variáveis declaradas com `var` e `let`. Porém não é possível modificar valores das declaradas com `const`.
+
+[Exemplos]()
+
+### 2.2.3 Hoisting
+
+Quando o JavaScript compila todo seu código, todas as declarações de variáveis usando `var` são levadas ao topo de suas funções/escopo local (se declaradas dentro de uma função), ou ao topo do escopo global (se declaradas fora de uma função) independentemente de onde a declaração foi feita.
+
+[Saiba mais.](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
+
+### Exercícios
+
+        // Declarar uma variável com o seu nome
+
+        // Declarar uma variável com a sua idade
+
+        // Declarar uma variável com a sua comida
+        // favorita e não atribuir valor
+
+        // Atribuir valor a sua comida favorita
+
+        // Declarar 5 variáveis diferentes sem valores
+
+[Resolução]()
