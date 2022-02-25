@@ -1,0 +1,109 @@
+# Capítulo 2 - JavaScript para Iniciantes
+
+## 2.1 Variáveis
+
+Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O nome das variáveis, chamados de [_indicadores_](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/indicadores.js), obedecem determinadas regras:
+
+- Os nomes podem iniciar com $, underline (\_), ou letras;
+
+- Case sensitive, ou seja, a varíavel `nome` é diferente da `Nome`;
+
+- Não utilizar [palavras reservadas](https://www.w3schools.com/js/js_reserved.asp);
+
+- Camel case, ou seja, é comum nomearmos assim: `abrirModal`.
+
+### 2.2.1 Declarações de Variáveis
+
+Existem três tipos de _declarações_ em JavaScript:
+
+- `var` - Declara uma variável;
+- `let` - Declara uma variável de escopo de bloco;
+- `const` - Declara uma constante de escopo de bloco, apenas de leitura.
+
+Podemos utilizar a vírgula para criar mais de uma variável, sem repetir as declarações.
+
+Podemos declarar uma variável sem atribuir valor inicialmente.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/variaveis.js)
+
+### 2.2.2 Mudar o valor atribuído
+
+É possível mudar os valores atribuídos a variáveis declaradas com `var` e `let`. Porém não é possível modificar valores das declaradas com `const`.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/mudar-o-valor.js)
+
+### 2.2.3 Hoisting
+
+Quando o JavaScript compila todo seu código, todas as declarações de variáveis usando `var` são levadas ao topo de suas funções/escopo local (se declaradas dentro de uma função), ou ao topo do escopo global (se declaradas fora de uma função) independentemente de onde a declaração foi feita.
+
+[Saiba mais.](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1)
+
+### Exercícios
+
+        // Declarar uma variável com o seu nome
+
+        // Declarar uma variável com a sua idade
+
+        // Declarar uma variável com a sua comida
+        // favorita e não atribuir valor
+
+        // Atribuir valor a sua comida favorita
+
+        // Declarar 5 variáveis diferentes sem valores
+
+[Resolução](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/exercicio.js)
+
+## 2.2 Tipos de Dados
+
+O mais recente padrão [ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) define sete _tipos de dados_:
+
+- Seis tipos de dados são chamados primitivos:
+
+  - Boolean - `true` e `false`;
+  - `null` - Uma plavra-chave que indica valor nulo.
+  - undefined - Uma propriedade superior cujo valor é indefinido.
+  - Number - `42` ou `1.25`
+  - String - `"Romualdo"`
+  - `Symbol()` - Um tipo de dado cuja as instâncias são únicas e imutáveis.
+
+- e Objetos.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/tipos.js)
+
+Todos os tipos primitivos definem valores _imutáveis_ (valores que são incapazes de mudar).
+
+### 2.2.1 Verificar tipo de dado
+
+Para _verificar_ o tipo de dado podemos utilizar o operador [`typeof`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof).
+
+A sintaxe deste operador é:
+
+        var nome = typeof "Romualdo";
+        console.log(nome); // Retorna "string"
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/verificar.js)
+
+### 2.2.2 Concatenando string
+
+_Concatenar_ é uma palavra chique da programação que significa "colocar junto". para colocar strings juntas em JavaScript, usamos o operador (+).
+
+Outra maneira de concatenar strings é utilizando _[Template Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals)_. Basicamente é uma nova forma de criar strings e tornar o seu código mais legível.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/verificar.js)
+
+### Exercícios
+
+        // Declare uma variável contendo uma string
+
+        // Declare uma variável contendo um número dentro de uma string
+
+        // Declare uma variável com a sua idade
+
+        // Declare duas variáveis, uma com seu nome
+        // e outra com seu sobrenome e some as mesmas
+
+        // Coloque a seguinte frase em uma variável: It's time
+
+        // Verifique o tipo da variável que contém o seu nome
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/exercicio.js)
