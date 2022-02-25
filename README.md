@@ -1,59 +1,107 @@
-# Capítulo 1 Introdução a JavaScript
+# Capítulo 2 [Estrutura léxica](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar)
 
-_JavaScript_ é a linguagem de programação da Web, ela faz parte da tríade de tecnologias que todos os desenvolvedores Web devem conhecer:
+A estrutura léxica de uma linguagem de programação é o conjunto de regras elementares que especificam o modo de escrever programas nessa linguagem.
 
-- _HTML_, para especificar o conteúdo de páginas Web;
-- _CSS_, para especificar a apresentação dessas páginas;
-- _JavaScript_, para especificar o comportamento delas.
+## 2.1 Conjunto de Caracteres
 
-A não ser pela semelhança sintática superficial, JavaScript é completamente diferente da linguagem de programação _Java_.
+Os programas JavaScript são escritos com o conjunto de caracteres [Unicode](https://www.devmedia.com.br/unicode-conceitos-basicos/25169).
 
-> **JavaScript: nomes e versões**
->
-> “JavaScript” é marca registrada, licenciada pela Sun Microsystems (agora Oracle), usada para descrever a implementação da linguagem pelo Netscape (agora Mozilla). A Netscape enviou a linguagem para a ECMA – European Computer Manufacturer’s Association – para padronização e, devido a questões relacionada à marca registrada, a versão padronizada manteve o nome entranho “ECMAScript”.
+### 2.1.1 Deferenciação de maiúsculas e minúsculas
 
-Para ser útil, toda linguagem deve ter ou uma plataforma, ou biblioteca padrão, ou API de funções para fazer coisas como entrada e saída básicas. A linguagem JavaScript básica define uma API mínima para trabalhar com texto, arrays, datas e expressões regulares, mas não inclui funcionalidade alguma de entrada ou saída. Entrada e saída são responsabilidade do “ambiente hospedeiro” dentro do qual JavaScript está incorporada. Normalmente, esse ambiente hospedeiro é um navegador Web.
+JavaScript é uma linguagem que diferencia letras maiúsculas de minúsculas. Dessa forma, `online`, `Online`, `OnLine` e `ONLINE` são quatro nomes de variável distintos.
 
-> **Explorando JavaScript**
->
-> Todo navegador Web contém um interpretador de JavaScript. Um painel ou janela típica de “ferramentas para desenvolvedor” contém várias guias. Uma das guias é o “console JavaScript” que permite digitar linhas de código JavaScript e testá-las. Para ativar um console apertamos a tecla F12.
->
-> É possível incorporar código JavaScript entre marcas [`<script>`](https://github.com/RomualdoBorges/javascript/blob/main/introducao-a-javascript/index.html) em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
->
-> Existe uma API de console simples, implementada de forma portável pelos navegadores modernos. Você pode usar a função `console.log()` para exibir uma saída simples no console.
+### 2.1.2 Espaços em branco, quebras de linha
 
-## 1.1 JavaScript básica
+Espaços em branco ajundam na legibilidade do código e separam os símbolos um do outro. Estes caracteres normalmente não são funcionais no código.
 
-Está seção explica, basicamente, o que veremos na parte I deste curso.
+## 2.2 Comentários
 
-**Capítulo 2 _Estrutura léxica_**
+JavaScript aceita dois estilos de [comentários]().
 
-Explica coisas como comentários no nível mais baixo de JavaScript, pontos e vírgulas e o conjunto de caracteres Unicode.
+## 2.3 Literais
 
-[Exemplo](https://github.com/RomualdoBorges/javascript/blob/main/introducao-a-javascript/exp-cap2.js)
+Um _literal_ é um valor de dados que aparece diretamente em um programa. São eles:
 
-**Capítulo 3 _Tipos, valores e variáveis_**
+- [Números]()
+- [String]()
+- [Booleano]()
+- [Null]()
 
-Explica as variáveis de JavaScript e os valores que podem ser atribuídos a eles.
+## 2.4 Identificadores e palavras reservadas
 
-[Exemplo]()
+Em JavaScript, um _identificador_ é utilizado para dar nome a variáveis e funções e fornecer rótulos para certos laços no código.
 
-**Capítulo 4 _Expressões e operadores_**
+Um [identificador]() JavaScript deve começar com uma letra, um sublinha (\_) ou um cifrão ($).
 
-Uma _expressão_ é uma frase em JavaScript que pode ser _avaliada_ para produzir um valor.
+### 2.4.1 [Palavras reservadas](https://www.w3schools.com/js/js_reserved.asp)
 
-Umas das maneiras mais comuns de formar expressões em JavaScript é usar _operadores_.
+JavaScript reserva vários identificadores como palavras-chave da própria linguagem. Você não pode usar essas palavras como identificadores.
 
-[Exemplo]()
+## 2.5 Pontos e vírgulas opcionais
 
-**Capítulo 5 _Instruções_**
+O JavaScript utiliza o ponto e vírgula `;` para separar instruções.
 
-Aplicações em JavaScript são realizadas através de instruções com uma sintaxe apropriada, sempre terminadas com `;`.
+Você normalmente pode omitir o ponto e vírgula entre duas instruções, caso essas instruções sejam escritas em linhas separadas.
 
-[Exemplo]()
+Muitos programadores JavaScript utilizam ponto e vírgula para marcar explicitamente os fiais de instruções, mesmo onde eles não são obrigatórios.
 
-**Capítulo 6 _Objetos_**
+# Capítulo 3 Tipos, valores e variáveis
 
-Aplicações em JavaScript são realizadas através de instruções com uma sintaxe apropriada, sempre terminadas com `;`.
+Os _tipos_ de JavaScript podem ser divididos em duas categorias:
 
-[Exemplo]()
+- Tipos _primitivos_ (números, strings, booleanos, null e undefined);
+- Tipos de _objeto_. (tudo que não for primitivos)
+
+Um [_objeto_]() é um conjunto de _propriedades_
+
+## 3.1 Números
+
+### 3.1.1 Literais inteiros
+
+### 3.1.2 Literais em ponto flutuante
+
+### 3.1.3 Aritmética em JavaScript
+
+### 3.1.4 Ponto flutuante binário e erros de arredondamento
+
+### 3.1.5 Datas e horas
+
+## 3.2 Texto
+
+### 3.2.1 Strings literais
+
+### 3.2.2 Sequências de escape em string literais
+
+### 3.2.3 Trabalhando com strings
+
+### 3.2.4 Comparação de padrões
+
+## 3.3 Valores booleanos
+
+## 3.4 null e undefined
+
+## 3.5 O objeto global
+
+## 3.6 Objetos wrapper
+
+## 3.7 Valores primitivos imutáveis e refeências de objeto mutáveis
+
+## 3.8 Conversões de tipo
+
+### 3.8.1 Conversões e igualdade
+
+### 3.8.2 Conversões explícitas
+
+### 3.8.3 Conversões de objeto para valores primitivos
+
+## 3.9 Declaração de veriável
+
+### 3.9.1 Declaração repetidas e omitidas
+
+## 3.10 Escopo de variável
+
+### 3.10.1 Escopo de função e içamento
+
+### 3.10.2 Variáveis como propriedades
+
+### 3.10.3 O encadeamento de escopo
