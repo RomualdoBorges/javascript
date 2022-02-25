@@ -18,7 +18,7 @@ Para ser útil, toda linguagem deve ter ou uma plataforma, ou biblioteca padrão
 >
 > Todo navegador Web contém um interpretador de JavaScript. Um painel ou janela típica de “ferramentas para desenvolvedor” contém várias guias. Uma das guias é o “console JavaScript” que permite digitar linhas de código JavaScript e testá-las. Para ativar um console apertamos a tecla F12.
 >
-> É possível incorporar código JavaScript entre marcas [`<script>`]() em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
+> É possível incorporar código JavaScript entre marcas [`<script>`](https://github.com/RomualdoBorges/javascript/blob/main/introducao-a-javascript/index.html) em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
 >
 > Existe uma API de console simples, implementada de forma portável pelos navegadores modernos. Você pode usar a função `console.log()` para exibir uma saída simples no console.
 
@@ -30,7 +30,7 @@ Está seção explica, basicamente, o que veremos na parte I deste curso.
 
 Explica coisas como comentários no nível mais baixo de JavaScript, pontos e vírgulas e o conjunto de caracteres Unicode.
 
-[Exemplo]()
+[Exemplo](https://github.com/RomualdoBorges/javascript/blob/main/introducao-a-javascript/exp-cap2.js)
 
 **Capítulo 3 _Tipos, valores e variáveis_**
 
