@@ -70,13 +70,13 @@ Podemos utilizar a vírgula para criar mais de uma variável, sem repetir as dec
 
 Podemos declarar uma variável sem atribuir valor inicialmente.
 
-[Exemplos]()
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/variaveis.js)
 
 ### 2.2.2 Mudar o valor atribuído
 
 É possível mudar os valores atribuídos a variáveis declaradas com `var` e `let`. Porém não é possível modificar valores das declaradas com `const`.
 
-[Exemplos]()
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/mudar-o-valor.js)
 
 ### 2.2.3 Hoisting
 
@@ -97,4 +97,4 @@ Quando o JavaScript compila todo seu código, todas as declarações de variáve
 
         // Declarar 5 variáveis diferentes sem valores
 
-[Resolução]()
+[Resolução](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/exercicio.js)
