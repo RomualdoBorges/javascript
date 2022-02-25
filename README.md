@@ -38,7 +38,7 @@ A não ser pela semelhança sintática superficial, _JavaScript_ é completament
 
 ## 1.4 Explorando o JavaScript
 
-É possível incorporar código JavaScript entre marcas [`<script>`](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/index.html) em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
+É possível incorporar código JavaScript entre marcas [`<script>`](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/index.html) em arquivos HTML e, quando o navegador carregar o arquivo, vai executar o código.
 
 Todo navegador Web contém um _interpretador_ de JavaScript e normalmente, podemos encontrar uma _ferramenta de desenvolvedores_ neles. Um painel ou janela típica de “ferramentas para desenvolvedor” contém várias guias. Uma das guias é o _“console JavaScript”_ que permite digitar linhas de código JavaScript e testá-las. Para ativar um console apertamos a tecla F12.
 
@@ -48,7 +48,7 @@ Existe uma API de console simples, implementada de forma portável pelos navegad
 
 ## 2.1 Variáveis
 
-Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O nome das variáveis, chamados de [_indicadores_](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/indicadores.js), obedecem determinadas regras:
+Você usa _variáveis_ como nomes símbolicos para guardar dados na memória. O nome das variáveis, chamados de [_indicadores_](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/indicadores.js), obedecem determinadas regras:
 
 - Os nomes podem iniciar com $, underline (\_), ou letras;
 
@@ -70,13 +70,13 @@ Podemos utilizar a vírgula para criar mais de uma variável, sem repetir as dec
 
 Podemos declarar uma variável sem atribuir valor inicialmente.
 
-[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/variaveis.js)
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/variaveis.js)
 
 ### 2.2.2 Mudar o valor atribuído
 
 É possível mudar os valores atribuídos a variáveis declaradas com `var` e `let`. Porém não é possível modificar valores das declaradas com `const`.
 
-[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/mudar-o-valor.js)
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/mudar-o-valor.js)
 
 ### 2.2.3 Hoisting
 
@@ -97,4 +97,59 @@ Quando o JavaScript compila todo seu código, todas as declarações de variáve
 
         // Declarar 5 variáveis diferentes sem valores
 
-[Resolução](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/exemplos/exercicio.js)
+[Resolução](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/variaveis/exercicio.js)
+
+## 2.2 Tipos de Dados
+
+O mais recente padrão ECMAScript define sete _tipos de dados_:
+
+- Seis tipos de dados são chamados primitivos:
+
+  - Boolean - `true` e `false`;
+  - `null` - Uma plavra-chave que indica valor nulo.
+  - undefined - Uma propriedade superior cujo valor é indefinido.
+  - Number - `42` ou `1.25`
+  - String - `"Romualdo"`
+  - `Symbol()` - Um tipo de dado cuja as instâncias são únicas e imutáveis.
+
+- e Objetos.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/tipos.js)
+
+Todos os tipos primitivos definem valores _imutáveis_ (valores que são incapazes de mudar).
+
+### 2.2.1 Verificar tipo de dado
+
+Para _verificar_ o tipo de dado podemos utilizar o operador [`typeof`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof).
+
+A sintaxe deste operador é:
+
+        var nome = typeof "Romualdo";
+        console.log(nome); // Retorna "string"
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/verificar.js)
+
+### 2.2.2 Concatenando string
+
+_Concatenar_ é uma palavra chique da programação que significa "colocar junto". para colocar strings juntas em JavaScript, usamos o operador (+).
+
+Outra maneira de concatenar strings é utilizando _[Template Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals)_. Basicamente é uma nova forma de criar strings e tornar o seu código mais legível.
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/verificar.js)
+
+### Exercícios
+
+        // Declare uma variável contendo uma string
+
+        // Declare uma variável contendo um número dentro de uma string
+
+        // Declare uma variável com a sua idade
+
+        // Declare duas variáveis, uma com seu nome
+        // e outra com seu sobrenome e some as mesmas
+
+        // Coloque a seguinte frase em uma variável: It's time
+
+        // Verifique o tipo da variável que contém o seu nome
+
+[Exemplos](https://github.com/RomualdoBorges/javascript/blob/main/javascript-para-iniciantes/tipos-de-dados/exercicio.js)
