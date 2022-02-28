@@ -13,3 +13,5 @@ O foco do aprendizado foi na aplicação para a web, através de manipulação d
 > [Variáveis](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/script.js) | [Tipos de Dados](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/tipos-de-dados.js) | Números e Operadores | Boolean e Condicionais
 >
 > Funções | Objetos | Tudo é Objeto | Array e Loops | Atribuição e Ternário | Escopo
+
+### Cápitulo 2
