@@ -6,13 +6,7 @@ O foco do aprendizado foi na aplicação para a web, através de manipulação d
 
 ## :notebook_with_decorative_cover: Sumário
 
-### [Capítulo 1]() - Introdução
-
-:heavy_check_mark: Tópicos abordados:
-
-> Linguagem | Aplicações | JavaScript vs Java | Explorando o JavaScript
-
-### [Capítulo 2]() - JavaScript para Iniciantes
+### Capítulo 1 - JavaScript para Iniciantes
 
 :heavy_check_mark: Tópicos abordados:
 
