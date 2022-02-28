@@ -10,7 +10,7 @@ O foco do aprendizado foi na aplicação para a web, através de manipulação d
 
 :heavy_check_mark: Tópicos abordados:
 
-> [Variáveis](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/script.js) | [Tipos de Dados](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/tipos-de-dados.js) | [Números e Operadores](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/numeros-e-operadores.js) | Boolean e Condicionais
+> [Variáveis](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/script.js) | [Tipos de Dados](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/tipos-de-dados.js) | [Números e Operadores](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/numeros-e-operadores.js) | [Boolean e Condicionais](https://github.com/RomualdoBorges/javascript/blob/main/js-para-iniciantes/boolean-e-condicionais.js)
 >
 > Funções | Objetos | Tudo é Objeto | Array e Loops | Atribuição e Ternário | Escopo
 
